@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+ <title> Web1-CSS </title>
+ <meta charset="utf-8">
+ <style>
+
+
+   a {
+     color: black;
+    text-decoration: none;
+     }
+
+   h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 5px gray solid;
+            margin:0;
+            padding: 20px;
+         }
+
+   ol {
+     border-right:5px solid gray;
+     width:100px;
+     padding: 20px;
+     margin:0;
+
+   }
+
+   #grid {
+     display: grid;
+     grid-template-columns: 150px 1fr
+   }
+
+ #grid ol {padding-left: 33px;}
+
+   #article{
+     padding-left: 33px;
+   }
+
+   @media(max-width:800px){
+     #grid{
+
+         display: block;}
+         ol {
+           border-right:none;
+               }
+         h1 {
+          border-bottom: none;
+                     }
+
+ }
+
+ </style>
+</head>
+
+<body>
+  <h1><a href="index.html"> web</a> </h1>
+  <div id="grid">
+
+      <ol>
+          <li><a href="1.html">HTML</a></li>
+          <li><a href="2.html">CSS</a></li>
+          <li><a href="3.html">JavasScript</a></li>
+      </ol>
+  <div id="article">
+      <h2> CSS </h2>
+      <p>
+        김동규 기자 = '물벼락 갑질' 논란으로 시작된 대한항공 조현민(35) 전무 파문이 어머니인 이명희 일우재단 이사장 등 한진그룹 총수 일가로 번지고 있다.
+
+      이 이사장이 운전기사·가정부·직원 등에게
+      </p>
+      <img src="book1.jpg" width="900px">
+      <p>
+      근대사 이미지 잘 나오는지 Test
+      </p>
+    </div>
+    </div>
+</body>
